@@ -14,7 +14,6 @@ class TabBarController: UITabBarController {
         super.viewDidLoad()
 
         let firstViewController = ScrollViewController()
-        firstViewController.tabBarObservedScrollView = firstViewController.scrollView
         let navigationController = UINavigationController(rootViewController: firstViewController)
         navigationController.title = "First"
 

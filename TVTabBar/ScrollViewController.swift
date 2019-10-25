@@ -12,12 +12,14 @@ class ScrollViewController: UIViewController {
 
     @IBOutlet var scrollView: UIScrollView?
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.tabBarObservedScrollView = scrollView
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.tabBarObservedScrollView = scrollView
     }
 }
