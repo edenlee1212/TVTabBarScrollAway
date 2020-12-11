@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A46AEE2F2581F9AC00C9D246 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46AEE2E2581F9AC00C9D246 /* ButtonViewController.swift */; };
+		A473AA3F257F50B6006810D8 /* FloatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473AA3D257F50B6006810D8 /* FloatingViewController.swift */; };
+		A473AA40257F50B6006810D8 /* FloatingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A473AA3E257F50B6006810D8 /* FloatingViewController.xib */; };
 		B2319059233BCC6800DB47EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2319058233BCC6800DB47EC /* AppDelegate.swift */; };
 		B231905B233BCC6800DB47EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B231905A233BCC6800DB47EC /* ViewController.swift */; };
 		B2319060233BCC6900DB47EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B231905F233BCC6900DB47EC /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A46AEE2E2581F9AC00C9D246 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		A473AA3D257F50B6006810D8 /* FloatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingViewController.swift; sourceTree = "<group>"; };
+		A473AA3E257F50B6006810D8 /* FloatingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FloatingViewController.xib; sourceTree = "<group>"; };
 		B2319055233BCC6800DB47EC /* TVTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2319058233BCC6800DB47EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B231905A233BCC6800DB47EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,12 +66,15 @@
 			children = (
 				B2319058233BCC6800DB47EC /* AppDelegate.swift */,
 				B231905A233BCC6800DB47EC /* ViewController.swift */,
+				A46AEE2E2581F9AC00C9D246 /* ButtonViewController.swift */,
 				B231905F233BCC6900DB47EC /* Assets.xcassets */,
 				B2319061233BCC6900DB47EC /* LaunchScreen.storyboard */,
 				B2319064233BCC6900DB47EC /* Info.plist */,
 				B231906A233BD19500DB47EC /* TabBarController.swift */,
 				B231906E233BD4BF00DB47EC /* ScrollViewController.swift */,
 				B231906F233BD4BF00DB47EC /* ScrollViewController.xib */,
+				A473AA3D257F50B6006810D8 /* FloatingViewController.swift */,
+				A473AA3E257F50B6006810D8 /* FloatingViewController.xib */,
 			);
 			path = TVTabBar;
 			sourceTree = "<group>";
@@ -130,6 +139,7 @@
 			files = (
 				B2319063233BCC6900DB47EC /* LaunchScreen.storyboard in Resources */,
 				B2319060233BCC6900DB47EC /* Assets.xcassets in Resources */,
+				A473AA40257F50B6006810D8 /* FloatingViewController.xib in Resources */,
 				B2319071233BD4BF00DB47EC /* ScrollViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +154,8 @@
 				B231906B233BD19500DB47EC /* TabBarController.swift in Sources */,
 				B231905B233BCC6800DB47EC /* ViewController.swift in Sources */,
 				B2319059233BCC6800DB47EC /* AppDelegate.swift in Sources */,
+				A473AA3F257F50B6006810D8 /* FloatingViewController.swift in Sources */,
+				A46AEE2F2581F9AC00C9D246 /* ButtonViewController.swift in Sources */,
 				B2319070233BD4BF00DB47EC /* ScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

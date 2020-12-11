@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  ButtonViewController.swift
 //  TVTabBar
 //
-//  Created by Kaz on 25/09/2019.
-//  Copyright © 2019 Kaz. All rights reserved.
+//  Created by tizen on 2020/12/10.
+//  Copyright © 2020 Kassra Yazdani. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class ButtonViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,18 +37,23 @@ class ViewController: UIViewController {
         let width1: CGFloat = 300
         let height1: CGFloat = 100
         let posX1: CGFloat = self.view.bounds.width - 700
-        let posY1: CGFloat = 300
+        let posY1: CGFloat = 46
         button1.frame = CGRect(x: posX1, y: posY1, width: width1, height: height1)
         button1.backgroundColor = .orange
         button1.layer.cornerRadius = 20.0
         button1.layer.masksToBounds = true
         self.view.addSubview(button1)
-        
-        let label = UILabel()
-        label.text = "Label"
-        label.textColor = .orange
-        label.sizeToFit()
-        //self.view.addSubview(label)
     }
-}
 
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}

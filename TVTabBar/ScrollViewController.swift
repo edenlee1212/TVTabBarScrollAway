@@ -16,7 +16,8 @@ class ScrollViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.tabBarObservedScrollView = scrollView
+        self.view.backgroundColor = .magenta
+        self.tabBarObservedScrollView = scrollView;
     }
     
     override func viewWillAppear(_ animated: Bool) {
